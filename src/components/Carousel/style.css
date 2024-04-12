@@ -1,0 +1,48 @@
+.datascience9-carousel-width {
+    height: 450px;
+}
+
+.datascience9-carousel-title {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.datascience9-carousel-title::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    margin-left: -40px;
+    height: 2px;
+    background: #3483de;
+}
+
+.datascience9-carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 110px;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+}
+
+.datascience9-carousel-caption-header>h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 40px;
+}
+
+.datascience9-carousel-caption-header>p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14.4px;
+    margin-top: 20px;
+}
+
+.datascience9-carousel-div-20 {
+    width: 100%;
+    height: 20px;
+}

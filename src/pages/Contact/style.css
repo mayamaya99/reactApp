@@ -1,0 +1,25 @@
+.contact-card {
+    border: none;
+}
+
+.location-image {
+    height: 90%;
+    width: 90%;
+}
+
+.contact-text {
+    font-size: 17px;
+}
+
+#p {
+    height: 100vh;
+}
+
+#i {
+    height: 90%;
+    width: 90%;
+}
+
+.ad {
+    margin-top: 6rem;
+}

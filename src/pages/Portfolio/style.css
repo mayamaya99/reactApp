@@ -1,0 +1,14 @@
+.portfolio-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.portfolio-card {
+    border: none;
+    margin-right: 25px;
+}
+
+.card-body {
+    padding-top: 15px;
+    padding-left: 0px;
+}
