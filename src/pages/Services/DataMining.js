@@ -49,6 +49,7 @@ const DataMining = () => {
                     </Col>
                 </Row>
             </Container>
+            <br/>
         </>
     )
 }

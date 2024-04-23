@@ -30,7 +30,8 @@ const Microservices = () => {
                         </Card>
                     </Col>
                     <Col xs={4}>
-                        <Card>
+
+                        <Card className='mt-1'>
                             <Card.Header className='services-header'>User Case 1 - Open Cart Application</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -39,7 +40,7 @@ const Microservices = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>User Case 2 - FHIR</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -57,7 +58,7 @@ const Microservices = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>User Case 3 - PowerBuilder Application</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -73,7 +74,7 @@ const Microservices = () => {
                                
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
@@ -86,6 +87,7 @@ const Microservices = () => {
                     </Col>
                 </Row>
             </Container>
+            <br/>
         </>
     )
 }

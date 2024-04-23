@@ -12,3 +12,14 @@
     padding-top: 15px;
     padding-left: 0px;
 }
+
+.portfolio-card {
+    /* background-color: blue; */
+    padding: 20px;
+    box-shadow: 0 1px 3px hsla(0, 0%, 0%, .2);
+}
+
+.portfolio {
+    background-color: whitesmoke;
+    padding: 40px;
+}

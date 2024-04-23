@@ -10,7 +10,7 @@ const DocumentConversion = () => {
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Conversion of Legacy MS Word / PDF to XML</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -27,7 +27,7 @@ const DocumentConversion = () => {
                         </Card>
                     </Col>
                     <Col xs={4}>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Case Study</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -36,7 +36,7 @@ const DocumentConversion = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Questions</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -45,7 +45,7 @@ const DocumentConversion = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
@@ -60,6 +60,7 @@ const DocumentConversion = () => {
                     </Col>
                 </Row>
             </Container>
+            <br/>
         </>
     )
 }

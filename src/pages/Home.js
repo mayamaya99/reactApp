@@ -5,8 +5,11 @@ import ServicesCard from '../components/Cards';
 const Home = () => {
     return (
         <>
-           <Slider/>
-            <ServicesCard />
+            <div>
+                <Slider />
+                <ServicesCard />
+
+            </div>
         </>
     )
 }

@@ -10,7 +10,7 @@ const DataMigration = () => {
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Database Migration and Microservices Generation</Card.Header>
                             <Card.Body>
                                 <Card.Text className='services-text'>
@@ -30,7 +30,7 @@ const DataMigration = () => {
                         </Card>
                     </Col>
                     <Col xs={4}>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Body>
                                 <Card.Header className='services-header'>User Case 1 - Drupal DB schema</Card.Header>
                                 <Card.Text className='services-text'>
@@ -45,7 +45,7 @@ const DataMigration = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Body>
                                 <Card.Header className='services-header'>User Case 2 - Sport DB schema</Card.Header>
                                 <Card.Text className='services-text'>
@@ -60,7 +60,7 @@ const DataMigration = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Body>
                                 <Card.Header className='services-header'>User Case 2 - Magento DB schema</Card.Header>
                                 <Card.Text className='services-text'>
@@ -75,7 +75,7 @@ const DataMigration = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header className='services-header'>Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
@@ -88,6 +88,7 @@ const DataMigration = () => {
                     </Col>
                 </Row>
             </Container>
+            <br/>
         </>
     )
 }
