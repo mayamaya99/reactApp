@@ -10,8 +10,8 @@
 }
 
 #card {
-    border: none;
-margin-botton:1rem;
+    border: none !important;
+    margin-bottom: -1.5rem;
 }
 
 .card-body {
@@ -19,9 +19,9 @@ margin-botton:1rem;
 }
 
 .card-footer {
-    background-color: transparent;
+    background-color: transparent !important;
     border-top: none;
-    padding-bottom: 2.5rem;
+    padding-top: 0rem !important;
 }
 
 .cardHeader {
@@ -41,6 +41,7 @@ margin-botton:1rem;
     font-size: 16px;
     font-weight: 400;
     color: #666666;
+    text-align: center;
 }
 
 .btn {
@@ -50,7 +51,7 @@ margin-botton:1rem;
     border-radius: .2rem;
 }
 
-.btn-outline-secondary {
+/* .btn-outline-secondary {
     color: #868e96;
     background-color: transparent;
     background-image: none;
@@ -61,9 +62,9 @@ margin-botton:1rem;
     color: #fff;
     background-color: #868e96;
     border-color: #868e96;
-}
+} */
 
-.btn-outline-secondary.focus,
+/* .btn-outline-secondary.focus,
 .btn-outline-secondary:focus {
     box-shadow: 0 0 0 3px rgba(134, 142, 150, .5);
 }
@@ -74,7 +75,7 @@ margin-botton:1rem;
     color: #fff;
     background-color: #868e96;
     border-color: #868e96;
-}
+} */
 
 #document-btn {
     margin-top: 28px;
@@ -91,3 +92,51 @@ margin-botton:1rem;
 #mining-btn {
     margin-top: 50px;
 }
+
+
+/* body {
+    background: #eee;
+} */
+
+span {
+    font-size: 15px;
+}
+
+/* a {
+    text-decoration: none;
+    color: #0062cc;
+    border-bottom: 2px solid #0062cc;
+} */
+
+.box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+
+.card-footer{
+    margin-bottom: 23px;
+    background-color: white !important;
+}
+
+
+@media (max-width:576px) {
+    .card {
+      font-size: 10px;
+      margin-bottom: 2rem !important;
+    }
+  }
+

@@ -23,7 +23,7 @@ const About = () => {
                     <Col xs={7}>
                         <Container className="text-center">
                             <Card id="card" className="text-center" border="primary">
-                                <Card.Header className="cardHeader mb-5">
+                                <Card.Title className="cardHeader mb-5">
                                     <span className="fa-layers fa-fw" id="aboutTeam" >
                                         <FontAwesomeIcon
                                             icon={faCircle}
@@ -36,7 +36,7 @@ const About = () => {
                                             style={{ color: "white", marginLeft: "-14px" }}
                                         />
                                     </span>
-                                </Card.Header>
+                                </Card.Title>
                                 <Card.Body>
                                     <Card.Title className="card-title mb-4" >About Us</Card.Title>
                                     <Card.Text className="card-text">

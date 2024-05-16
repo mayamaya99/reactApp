@@ -2,10 +2,10 @@
     background-color: #FBFBFB;
 }
 
-#topHeader .header-link a:hover {
+/* #topHeader .header-link a:hover {
     color: #3483DE;
     margin-right: 1rem !important;
-}
+} */
 
 .header-text {
     font-size: 12px;
