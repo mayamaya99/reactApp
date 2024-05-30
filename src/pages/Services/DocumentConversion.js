@@ -13,11 +13,11 @@ const DocumentConversion = () => {
                         <Card className='mt-2'>
                             <Card.Header className='services-header'>Conversion of Legacy MS Word / PDF to XML</Card.Header>
                             <Card.Body>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 Our firm has developed an open source tool, which automatically converts legacy MS Word, PDF documents to XML.
                                 The tool can also generate PDF from generated XML if applicable.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 The conversion process is shown in Figure 1 :
                                 </Card.Text>
                             </Card.Body>

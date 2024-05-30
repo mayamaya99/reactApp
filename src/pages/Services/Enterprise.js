@@ -11,18 +11,18 @@ const Enterprise = () => {
                         <Card>
                             <Card.Header className='services-header'>Enterprise Software Solution</Card.Header>
                             <Card.Body>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                     If an off-the-shelf product does not suite your business requirements, our firm can work with your company to design
                                     and build a customized application that satisfies your requirements at an affordable cost.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                     Building on top of well-known open-source frameworks we can rapidly develop an application based on your requirements.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                     Using agile methodology our staff engage continually with client constantly during the development cycle to ensure we
                                     meet all customer requirements.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                     With our expertise in database modeling, network setup, server configurations, security mechanisms, and open source
                                     frameworks our firm can provide a full service from conceptual design to development, and set up an infrastructure or
                                     connect to cloud services such as Amazon EC2 or Google Cloud.

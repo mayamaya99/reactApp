@@ -11,12 +11,12 @@ const DataTransformation = () => {
                         <Card>
                             <Card.Header className='services-header'>Data Transformation</Card.Header>
                             <Card.Body>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 Advances in hardware and data storage have enabled, more and more data are to be collected constantly. For useful data
                                 analysis, data needs be transformed to a standard format. With more than 15 years' experience in data transformation, our
                                 firm can assist clients to transform data from one or many sources to a target medium for analysis.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 With programming and hacking skills, our technical staff can transform complex unstructured data into semi-structured or 
                                 structured data automatically.
                                 </Card.Text>

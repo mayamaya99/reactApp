@@ -11,16 +11,16 @@ const WebDevelopment = () => {
                         <Card>
                             <Card.Header className='services-header'>Web Development</Card.Header>
                             <Card.Body>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 Software designed for the web is ideally suited for custom business applications that streamline processes, enable a 
                                 competitive advantage, or connect with consumers and business partners in unique ways. We build new applications and 
                                 also enhance and add funtionality to your legacy applications.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 Our firm builds reliable, secure, and richly featured web applications. Using modern web technologies, we can build 
                                 robust applications with rich user interfaces and complex business functionality, that are always available, online.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 A web application also improves for enterprise readiness and affordability. The languages, frameworks, and architecture 
                                 lend themselves to rapid application development. And relative to other software architectures, web apps offer easier 
                                 deployment and maintenance.

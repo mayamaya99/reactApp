@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+Card.Text{
+  margin-bottom: -1rem;
+}

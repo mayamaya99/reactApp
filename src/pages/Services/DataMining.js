@@ -11,12 +11,12 @@ const DataMining = () => {
                         <Card>
                             <Card.Header className='services-header'>Data Mining and Machine Learning</Card.Header>
                             <Card.Body>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 As a massive amount of data is collected every second, mining it for useful information is key for businesses to engage 
                                 closely with customers. Our firm provides a full service of data munging, wrangling, and data discovery, including building 
                                 predictive models or clusters of interesting information using open-source data mining and machine learning algorithms.
                                 </Card.Text>
-                                <Card.Text className='services-text'>
+                                <Card.Text className='services-text mb-1'>
                                 To ensure our models do not suffer overfitting issues we employ an ensemble method that uses multiple learning algorithms 
                                 to cross-check results, preventing overfitting and avoiding high bias. We also use A cross-validation technique.
                                 </Card.Text>
