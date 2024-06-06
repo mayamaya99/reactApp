@@ -17,4 +17,9 @@
   #aboutTeam {
     margin-top: 10rem;
   }
+
+  .text{
+    text-align: justify !important;
+    margin-top: -1px;
+  }
   

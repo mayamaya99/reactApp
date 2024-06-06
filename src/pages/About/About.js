@@ -67,7 +67,7 @@ const About = () => {
                             <Card.Link href="https://www.linkedin.com/in/maidung/">
                                 Paul Mai
                             </Card.Link>
-                            <Card.Text>
+                            <Card.Text className="text">
                                 Principle Investigator and Developer<br />
                                 Research, design and develop a multiphase framework that modernizes legacy applications and automatically generates applications from the users logics and the specifications
                             </Card.Text>
@@ -77,14 +77,14 @@ const About = () => {
                         <Card.Img src={baya} />
                         <Card.Body>
                             <Card.Link href="https://www.linkedin.com/in/ahmed-elmi-179a07199/">Ahmed Elmi Intern 2021</Card.Link>
-                            <Card.Text>Modernize a JEE application to Single Page Application using React</Card.Text>
+                            <Card.Text className="text">Modernize a JEE application to Single Page Application using React</Card.Text>
                         </Card.Body>
                     </Card>
                     <Card className="portfolio-card">
                         <Card.Img src={ward} />
                         <Card.Body>
                             <Card.Link href="#">Ward Webber Consultant</Card.Link>
-                            <Card.Text>
+                            <Card.Text className="text">
                                 Function Analyst and Technical Writer<br />
                                 Provide software funtional analysis, testing, and technical writing per projects
                             </Card.Text>

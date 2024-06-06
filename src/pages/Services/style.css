@@ -1,6 +1,6 @@
 .services-header {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 25px !important;
     color: #666666;
     padding: 12px 20px;
 }
@@ -11,9 +11,12 @@
     font-size: 14.5px;
     color: #000000;
     line-height: 1.8em;
-    margin: 0px 0px 16px;
-    padding-left: 10px;
+    /* margin: 0px 0px 16px;
+    padding-left: 10px; */
     text-align: justify;
+    overflow-x: none !important;
+    padding: 10px !important;
+    margin-bottom: -10px !important;
 
 
 }
@@ -26,4 +29,9 @@
 
 Card.Text{
 text-align: justify;
+}
+
+
+#spacing{
+    letter-spacing: -1px; 
 }

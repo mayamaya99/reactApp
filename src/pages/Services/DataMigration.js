@@ -31,22 +31,24 @@ const DataMigration = () => {
                     </Col>
                     <Col xs={4}>
                         <Card className='mt-2'>
-                            <Card.Body>
-                                <Card.Header className='services-header' style={{ fontSize:'2px' }}>User Case 1 - Drupal DB schema</Card.Header>
+                            
+                                <Card.Header className='services-header' >User Case 1 - Drupal DB schema</Card.Header>
                                 <Card.Text className='services-text mb-1'>
                                     In this project, we ran our auto-generated tool against the drupal database schema.
                                     The result is a fully functional back-end with a React pages in the UI. The generated application is published in the GitHub.
-                                    &nbsp; &nbsp; <a href='https://github.com/gmai2006/drupaltest' >
+                                    &nbsp; <a href='https://github.com/gmai2006/drupaltest' >
                                         A generated web application from a Drupal database schema</a>
                                 </Card.Text>
                                 <Card.Text className='services-text mb-1'>
                                     This generated web application can run in any standard servlet container
                                     like Wildfly or Websphere containers.
+                                    <br/>
+                                    <br/>
                                 </Card.Text>
-                            </Card.Body>
+                           
                         </Card>
                         <Card className='mt-2'>
-                            <Card.Body>
+                            
                                 <Card.Header className='services-header'>User Case 2 - Sport DB schema</Card.Header>
                                 <Card.Text className='services-text'>
                                     In this project, we ran our auto-generated tool against the Sport database schema.
@@ -57,12 +59,14 @@ const DataMigration = () => {
                                 <Card.Text className='services-text'>
                                     This generated web application can run in any standard servlet container
                                     like Wildfly or Websphere containers.
+                                    <br/>
+                                    <br/>
                                 </Card.Text>
-                            </Card.Body>
+                           
                         </Card>
                         <Card className='mt-2'>
-                            <Card.Body>
-                                <Card.Header className='services-header'>User Case 2 - Magento DB schema</Card.Header>
+                           
+                                <Card.Header className='services-header' id='spacing'>User Case 2 - Magento DB schema</Card.Header>
                                 <Card.Text className='services-text'>
                                     In this project, we ran our auto-generated tool against the Magento database schema.
                                     The result is a fully functional back-end with a React pages in the UI. The generated application is published in the GitHub.
@@ -72,11 +76,13 @@ const DataMigration = () => {
                                 <Card.Text className='services-text'>
                                     This generated web application can run in any standard servlet container
                                     like Wildfly or Websphere containers.
+                                    <br/>
+                                    <br/>
                                 </Card.Text>
-                            </Card.Body>
+                            
                         </Card>
                         <Card className='mt-2'>
-                            <Card.Header className='services-header'>Technologies</Card.Header>
+                            <Card.Header className='services-header' >Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
                                 <ListGroup.Item>StringTemplate</ListGroup.Item>
